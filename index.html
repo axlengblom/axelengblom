@@ -35,9 +35,10 @@
   <!--  -->
   <!-- Click Here  -->
   <!--  -->
-  <div class="clickhere ">
-    <svg id="clickHere" class="clickhere__btn clickhere__btn--active" width="106" height="106" viewBox="0 0 106 106"
-      fill="none" xmlns="http://www.w3.org/2000/svg">
+  <div id="clickHere" class="clickhere clickhere__btn clickhere__btn--active" role="button" aria-label="Click Here"
+    tabindex="0">
+    <svg class="clickhere__svg" width="106" height="106" viewBox="0 0 106 106" fill="none"
+      xmlns="http://www.w3.org/2000/svg">
       <path id="Click-Here"
         d="M43.9297 43.4883C43.7539 44.9922 43.1973 46.1543 42.2598 46.9746C41.3288 47.7884 40.0885 48.1953 38.5391 48.1953C36.8594 48.1953 35.5117 47.5931 34.4961 46.3887C33.487 45.1842 32.9824 43.5729 32.9824 41.5547V40.1875C32.9824 38.8659 33.2168 37.7038 33.6855 36.7012C34.1608 35.6986 34.8314 34.9303 35.6973 34.3965C36.5632 33.8561 37.5658 33.5859 38.7051 33.5859C40.2155 33.5859 41.4264 34.0091 42.3379 34.8555C43.2493 35.6953 43.7799 36.8607 43.9297 38.3516H42.0449C41.8822 37.2188 41.5273 36.3984 40.9805 35.8906C40.4401 35.3828 39.6816 35.1289 38.7051 35.1289C37.5072 35.1289 36.5664 35.5716 35.8828 36.457C35.2057 37.3424 34.8672 38.6022 34.8672 40.2363V41.6133C34.8672 43.1562 35.1895 44.3835 35.834 45.2949C36.4785 46.2064 37.3802 46.6621 38.5391 46.6621C39.5807 46.6621 40.3783 46.4277 40.9316 45.959C41.4915 45.4837 41.8626 44.6602 42.0449 43.4883H43.9297ZM48.1777 48H46.3711V33H48.1777V48ZM53.041 48H51.2344V37.4336H53.041V48ZM51.0879 34.6309C51.0879 34.3379 51.1758 34.0905 51.3516 33.8887C51.5339 33.6868 51.8008 33.5859 52.1523 33.5859C52.5039 33.5859 52.7708 33.6868 52.9531 33.8887C53.1354 34.0905 53.2266 34.3379 53.2266 34.6309C53.2266 34.9238 53.1354 35.168 52.9531 35.3633C52.7708 35.5586 52.5039 35.6562 52.1523 35.6562C51.8008 35.6562 51.5339 35.5586 51.3516 35.3633C51.1758 35.168 51.0879 34.9238 51.0879 34.6309ZM60.1797 46.7207C60.8242 46.7207 61.3874 46.5254 61.8691 46.1348C62.3509 45.7441 62.6178 45.2559 62.6699 44.6699H64.3789C64.3464 45.2754 64.138 45.8516 63.7539 46.3984C63.3698 46.9453 62.8555 47.3815 62.2109 47.707C61.5729 48.0326 60.8958 48.1953 60.1797 48.1953C58.7409 48.1953 57.5951 47.7168 56.7422 46.7598C55.8958 45.7962 55.4727 44.4811 55.4727 42.8145V42.5117C55.4727 41.4831 55.6615 40.5684 56.0391 39.7676C56.4167 38.9668 56.957 38.3451 57.6602 37.9023C58.3698 37.4596 59.2064 37.2383 60.1699 37.2383C61.3548 37.2383 62.3379 37.5931 63.1191 38.3027C63.9069 39.0124 64.3268 39.9336 64.3789 41.0664H62.6699C62.6178 40.3828 62.3574 39.8229 61.8887 39.3867C61.4264 38.944 60.8535 38.7227 60.1699 38.7227C59.252 38.7227 58.5391 39.0547 58.0312 39.7188C57.5299 40.3763 57.2793 41.3301 57.2793 42.5801V42.9219C57.2793 44.1393 57.5299 45.0768 58.0312 45.7344C58.5326 46.3919 59.2487 46.7207 60.1797 46.7207ZM69.3594 43.1074L68.2266 44.2891V48H66.4199V33H68.2266V42.0723L69.1934 40.9102L72.4844 37.4336H74.6816L70.5703 41.8477L75.1602 48H73.041L69.3594 43.1074ZM45.0527 71H43.168V64.4277H36V71H34.125V56.7812H36V62.8945H43.168V56.7812H45.0527V71ZM52.4844 71.1953C51.0521 71.1953 49.8867 70.7266 48.9883 69.7891C48.0898 68.8451 47.6406 67.5853 47.6406 66.0098V65.6777C47.6406 64.6296 47.8392 63.6953 48.2363 62.875C48.64 62.0482 49.1999 61.4036 49.916 60.9414C50.6387 60.4727 51.4199 60.2383 52.2598 60.2383C53.6335 60.2383 54.7012 60.6908 55.4629 61.5957C56.2246 62.5007 56.6055 63.7962 56.6055 65.4824V66.2344H49.4473C49.4733 67.276 49.776 68.1191 50.3555 68.7637C50.9414 69.4017 51.6836 69.7207 52.582 69.7207C53.2201 69.7207 53.7604 69.5905 54.2031 69.3301C54.6458 69.0697 55.0332 68.7246 55.3652 68.2949L56.4688 69.1543C55.5833 70.515 54.2552 71.1953 52.4844 71.1953ZM52.2598 61.7227C51.5306 61.7227 50.9186 61.9896 50.4238 62.5234C49.929 63.0508 49.623 63.793 49.5059 64.75H54.7988V64.6133C54.7467 63.6953 54.4993 62.9857 54.0566 62.4844C53.6139 61.9766 53.015 61.7227 52.2598 61.7227ZM63.8125 62.0547C63.5391 62.0091 63.2428 61.9863 62.9238 61.9863C61.7389 61.9863 60.9349 62.4909 60.5117 63.5V71H58.7051V60.4336H60.4629L60.4922 61.6543C61.0846 60.7103 61.9245 60.2383 63.0117 60.2383C63.3633 60.2383 63.6302 60.2839 63.8125 60.375V62.0547ZM69.6719 71.1953C68.2396 71.1953 67.0742 70.7266 66.1758 69.7891C65.2773 68.8451 64.8281 67.5853 64.8281 66.0098V65.6777C64.8281 64.6296 65.0267 63.6953 65.4238 62.875C65.8275 62.0482 66.3874 61.4036 67.1035 60.9414C67.8262 60.4727 68.6074 60.2383 69.4473 60.2383C70.821 60.2383 71.8887 60.6908 72.6504 61.5957C73.4121 62.5007 73.793 63.7962 73.793 65.4824V66.2344H66.6348C66.6608 67.276 66.9635 68.1191 67.543 68.7637C68.1289 69.4017 68.8711 69.7207 69.7695 69.7207C70.4076 69.7207 70.9479 69.5905 71.3906 69.3301C71.8333 69.0697 72.2207 68.7246 72.5527 68.2949L73.6562 69.1543C72.7708 70.515 71.4427 71.1953 69.6719 71.1953ZM69.4473 61.7227C68.7181 61.7227 68.1061 61.9896 67.6113 62.5234C67.1165 63.0508 66.8105 63.793 66.6934 64.75H71.9863V64.6133C71.9342 63.6953 71.6868 62.9857 71.2441 62.4844C70.8014 61.9766 70.2025 61.7227 69.4473 61.7227Z"
         fill="black" />
@@ -244,10 +245,10 @@
   <!-- Header -->
   <!--  -->
   <header class="header">
-    <div class="header__content">
+    <section class="header__content">
       <h1 class="header__name">Axel Engblom</h1>
       <h2 class="header__title">Front End Developer</h2>
-    </div>
+    </section>
   </header>
   <main>
     <!--  -->
@@ -266,6 +267,7 @@
         </div>
         <figure class="about__imgbox">
           <img class="about__img" src="https://loremflickr.com/640/380" alt="A placeholder image from loremflickr.com">
+          <figcaption style="display: none;">Cat</figcaption>
         </figure>
       </section>
     </div>
@@ -283,6 +285,7 @@
         </div>
         <figure class="skills__imgbox">
           <img class="skills__img" src="img/laptop.jpg " alt="An image of a Macbook Pro, Photo by Nao Triponez.">
+          <figcaption style="display: none;">Macbook Pro</figcaption>
         </figure>
       </section>
     </div>
@@ -295,7 +298,8 @@
           </ul>
         </div>
         <figure class="projects__imgbox">
-          <img class="projects__img" src="/img/iphone-coming-soon.jpg" alt="A placeholder image for projects">
+          <img class="projects__img" src="img/iphone-coming-soon.jpg" alt="A placeholder image for projects">
+          <figcaption style="display: none;">Coming Soon</figcaption>
         </figure>
       </section>
     </div>
@@ -306,10 +310,19 @@
   <footer class="footer">
     <div class="footer__container">
       <form class="footer__form">
-        <input class="footer__inputname" type="text" placeholder="First & Lastname"><br>
-        <input class="footer__inputemail" type="email" placeholder="email@email.com"><br>
-        <textarea class="footer__inputmsg" placeholder="Type your message here"></textarea><br>
-        <input class="footer__button" type="submit">
+        <label for="footer__inputname">Name:
+          <input id="footer__inputname" class="footer__inputname" type="text" placeholder="First & Lastname" />
+        </label>
+        <br>
+        <label for="footer__inputemail">E-mail:
+          <input id="footer__inputemail" class="footer__inputemail" type="email" placeholder="email@email.com" />
+        </label>
+        <br>
+        <label for="footer__inputmsg">Message:</label>
+        <textarea id="footer__inputmsg" class="footer__inputmsg" placeholder="Type your message here">
+        </textarea>
+        <br>
+        <input class="footer__button" type="submit" />
       </form>
       <address class="adress">
         <ul class="adress__list">
@@ -340,14 +353,25 @@
 
 <script>
   const menuOpen = document.querySelector('.clickhere__btn--active');
-  menuOpen.addEventListener('click', () => {
-    let hidenMenu = document.querySelector('.snowglobe');
-    if (hidenMenu.style.display == "none") {
-      hidenMenu.style.display = "inline";
-    } else {
-      hidenMenu.style.display = "none";
-    }
-  }) // end addEventListener
+  ['click', 'keypress'].forEach(evt =>
+    menuOpen.addEventListener(evt, () => {
+      let hidenMenu = document.querySelector('.snowglobe');
+      if (hidenMenu.style.display == "none") {
+        hidenMenu.style.display = "inline";
+      } else {
+        hidenMenu.style.display = "none";
+      }
+
+    })
+  );
+  // menuOpen.addEventListener('click', () => {
+  //   let hidenMenu = document.querySelector('.snowglobe');
+  //   if (hidenMenu.style.display == "none") {
+  //     hidenMenu.style.display = "inline";
+  //   } else {
+  //     hidenMenu.style.display = "none";
+  //   }
+  // }) // end addEventListener
 
 </script>
 <script>
